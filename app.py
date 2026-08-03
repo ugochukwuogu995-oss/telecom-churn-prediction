@@ -4,9 +4,7 @@ import pandas as pd
 import joblib
 # -------------------------------
 # Load Model
-# -------------------------------
-from pathlib import Path
-
+# ---------------------------
 MODEL_PATH = "churn_model.pkl"
 model = joblib.load(MODEL_PATH)
 st.set_page_config(

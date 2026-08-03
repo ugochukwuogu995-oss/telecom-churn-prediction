@@ -294,7 +294,7 @@ st.markdown("---")
 
 st.subheader("💼 Business Recommendations")
 
-st.write("
+st.write("""
 Telecommunication companies can reduce customer churn by:
 
 - Offering loyalty rewards to long-term customers.
@@ -302,13 +302,13 @@ Telecommunication companies can reduce customer churn by:
 - Improving customer service and technical support.
 - Providing personalized discounts for high-risk customers.
 - Using predictive analytics to identify customers likely to churn.
-")
+""")
 
 st.markdown("---")
 
 st.subheader("ℹ️ About This Project")
 
-st.write("
+st.write("""
 *Project Title:* Telecom Customer Churn Prediction Using Machine Learning
 
 *Author:* Ugochukwu Monday Ogu
@@ -326,7 +326,7 @@ LAGOS STATE
 - Joblib
 
 *Dataset:* IBM Telco Customer Churn Dataset
-")
+""")
 
 st.markdown("---")
 st.caption("© 2026 Ugochukwu Ogu | Telecom Customer Churn Prediction")

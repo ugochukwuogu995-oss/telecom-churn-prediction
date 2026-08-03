@@ -179,7 +179,7 @@ payment_map = {
 # Prediction
 # ---------------------------------
 
-if st.button("Predict Customer Churn"):
+if st.button("""Predict Customer Churn"""):
 
     customer = pd.DataFrame({
         "gender":[gender],

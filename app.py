@@ -18,11 +18,11 @@ st.set_page_config(
 
 st.title("📱 Telecom Customer Churn Prediction")
 
-st.markdown("
+st.markdown("""
 Predict whether a telecom customer is likely to leave the company using Machine Learning.
 
 This project was developed as a Capstone Project using the IBM Telco Customer Churn Dataset.
-")
+""")
 
 # Sidebar
 st.sidebar.title("Customer Information")

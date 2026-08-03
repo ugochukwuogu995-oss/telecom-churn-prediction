@@ -179,7 +179,7 @@ payment_map = {
 # Prediction
 # ---------------------------------
 
-if st.button("""Predict Customer Churn"""):
+if st.button("Predict Customer Churn"):
 
     customer = pd.DataFrame({
         "gender":[gender],
@@ -279,7 +279,7 @@ st.markdown("---")
 
 st.subheader("📌 Key Factors Affecting Customer Churn")
 
-st.write("
+st.write("""
 The model identified these features as the most important predictors of customer churn:
 
 - Contract Type
@@ -288,7 +288,7 @@ The model identified these features as the most important predictors of customer
 - Total Charges
 - Internet Service
 - Payment Method
-")
+""")
 
 st.markdown("---")
 

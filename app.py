@@ -7,6 +7,7 @@ import joblib
 # ---------------------------
 MODEL_PATH = "churn_model.pkl"
 model = joblib.load(MODEL_PATH)
+
 st.set_page_config(
     page_title="Telecom Customer Churn Prediction",
     page_icon="📱",

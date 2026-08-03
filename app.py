@@ -8,7 +8,7 @@ import joblib
 # -------------------------------
 from pathlib import Path
 
-MODEL_PATH = Path(_file_).parent / "churn_model.pkl"
+MODEL_PATH = Path(__file__).parent / "churn_model.pkl"
 model = joblib.load(MODEL_PATH)
 st.set_page_config(
     page_title="Telecom Customer Churn Prediction",

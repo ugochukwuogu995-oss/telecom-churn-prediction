@@ -239,22 +239,22 @@ if st.button("Predict Customer Churn"):
 
     if prediction == 1:
 
-        st.write("
+        st.write("""
 - Contact the customer immediately.
 - Offer a loyalty discount.
 - Recommend a longer-term contract.
 - Improve customer support.
 - Follow up within the next 30 days.
-")
+""")
 
     else:
 
-        st.write("
+        st.write("""
 - Continue providing quality service.
 - Offer loyalty rewards.
 - Encourage long-term subscriptions.
 - Maintain regular customer engagement.
-")
+""")
 
 # ---------------------------------
 # Dashboard

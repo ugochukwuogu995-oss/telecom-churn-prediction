@@ -9,12 +9,12 @@ MODEL_PATH = "churn_model.pkl"
 model = joblib.load(MODEL_PATH)
 
 st.set_page_config(
-    page_title="Telecom Customer Churn Prediction",
+    page_title="Telecom Churn Model",
     page_icon="📱",
     layout="wide"
 )
 
-st.title("📱 Telecom Customer Churn Prediction")
+st.title("📱 Telecom Churn Model")
 
 st.markdown("""
 Predict whether a telecom customer is likely to leave the company using Machine Learning.

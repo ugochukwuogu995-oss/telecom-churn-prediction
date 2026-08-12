@@ -1,5 +1,5 @@
 
-# Telecom Customer Churn Prediction Using Machine Learning
+# Telecom Churn Model Using Machine Learning
 
 ## Project Overview
 
@@ -120,13 +120,11 @@ Telecom-Churn-Prediction/
 │
 ├── Telecom_Churn_Prediction.ipynb
 ├── app.py
-├── telecom_churn_model.pkl
+├── churn_model.pkl
 ├── requirements.txt
 ├── README.md
 ├── WA_Fn-UseC_-Telco-Customer-Churn.csv
-├── images
-├── presentation
-└── report
+└── Evaluation and Business Recommendation
 
 ## Installation
 

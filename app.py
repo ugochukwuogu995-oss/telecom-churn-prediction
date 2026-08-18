@@ -57,6 +57,36 @@ information to estimate the likelihood of churn.
 The goal is to help telecom businesses identify high-risk customers early
 and support proactive customer retention strategies.
 """)
+
+# ============================================================
+# NIGERIAN TELECOM CONTEXT
+# ============================================================
+
+st.markdown("### 🇳🇬 Nigerian Telecom Context")
+
+st.write("""
+Telecommunications plays an important role in connecting individuals,
+businesses and communities across Nigeria. Customer retention is therefore
+an important consideration for telecom service providers.
+
+In the Nigerian context, customers may change or discontinue telecom
+services because of factors such as affordability, service experience,
+network performance, contract preferences, payment options and changing
+customer needs.
+
+This project demonstrates how customer data and machine learning can be
+used to identify customers who may be at risk of churn. The predictions
+can support telecom businesses in prioritising customer engagement and
+developing appropriate retention strategies.
+
+For example, a provider could use higher-risk predictions to consider
+personalised offers, customer-service follow-ups, suitable subscription
+plans, loyalty initiatives and investigation of service-related concerns.
+
+The model is intended as a decision-support tool and should be combined
+with business knowledge and customer feedback when making real-world
+decisions.
+""")
 # ============================================================
 # METHODOLOGY
 # ============================================================
@@ -110,35 +140,7 @@ with st.expander("🔬 Project Methodology"):
     may be at higher risk of leaving and support proactive customer
     retention strategies.
     """)
-# ============================================================
-# NIGERIAN TELECOM CONTEXT
-# ============================================================
 
-st.markdown("### 🇳🇬 Nigerian Telecom Context")
-
-st.write("""
-Telecommunications plays an important role in connecting individuals,
-businesses and communities across Nigeria. Customer retention is therefore
-an important consideration for telecom service providers.
-
-In the Nigerian context, customers may change or discontinue telecom
-services because of factors such as affordability, service experience,
-network performance, contract preferences, payment options and changing
-customer needs.
-
-This project demonstrates how customer data and machine learning can be
-used to identify customers who may be at risk of churn. The predictions
-can support telecom businesses in prioritising customer engagement and
-developing appropriate retention strategies.
-
-For example, a provider could use higher-risk predictions to consider
-personalised offers, customer-service follow-ups, suitable subscription
-plans, loyalty initiatives and investigation of service-related concerns.
-
-The model is intended as a decision-support tool and should be combined
-with business knowledge and customer feedback when making real-world
-decisions.
-""")
 # ============================================================
 # LOAD DATASET
 # ============================================================

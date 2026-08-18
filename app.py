@@ -111,6 +111,35 @@ with st.expander("🔬 Project Methodology"):
     retention strategies.
     """)
 # ============================================================
+# NIGERIAN TELECOM CONTEXT
+# ============================================================
+
+st.markdown("### 🇳🇬 Nigerian Telecom Context")
+
+st.write("""
+Telecommunications plays an important role in connecting individuals,
+businesses and communities across Nigeria. Customer retention is therefore
+an important consideration for telecom service providers.
+
+In the Nigerian context, customers may change or discontinue telecom
+services because of factors such as affordability, service experience,
+network performance, contract preferences, payment options and changing
+customer needs.
+
+This project demonstrates how customer data and machine learning can be
+used to identify customers who may be at risk of churn. The predictions
+can support telecom businesses in prioritising customer engagement and
+developing appropriate retention strategies.
+
+For example, a provider could use higher-risk predictions to consider
+personalised offers, customer-service follow-ups, suitable subscription
+plans, loyalty initiatives and investigation of service-related concerns.
+
+The model is intended as a decision-support tool and should be combined
+with business knowledge and customer feedback when making real-world
+decisions.
+""")
+# ============================================================
 # LOAD DATASET
 # ============================================================
 
@@ -706,31 +735,32 @@ st.dataframe(
     confusion_data,
     use_container_width=True
 )
-# ============================================================
-# BUSINESS INSIGHTS
-# ============================================================
-
-st.markdown("---")
-
 st.subheader("💼 Business Insights")
 
-st.markdown(f"""
-Based on the dataset and model results:
+st.markdown("""
+### 🇳🇬 Application to the Nigerian Telecom Market
 
-- The overall customer churn rate is **{churn_rate:.1f}%**.
-- The model achieved an accuracy of **{accuracy * 100:.2f}%**.
-- The model's precision is **{precision * 100:.2f}%**.
-- The model's recall is **{recall * 100:.2f}%**.
-- The model's F1 score is **{f1 * 100:.2f}%**.
-- The ROC-AUC score is **{roc_auc * 100:.2f}%**.
+For a Nigerian telecom service provider, churn predictions could support
+a more proactive customer-retention strategy.
 
-These results demonstrate how machine learning can be used as a
-decision-support tool for identifying customers who may be at risk
-of churn.
+**Potential applications include:**
 
-Businesses can use these predictions to prioritise customer
-engagement, investigate service issues and develop appropriate
-retention strategies.
+- **Affordability:** Identify customers who may benefit from more suitable
+  subscription or pricing options.
+- **Customer service:** Prioritise follow-up with customers showing
+  elevated churn risk.
+- **Service experience:** Investigate possible service-related concerns
+  among high-risk customers.
+- **Personalised engagement:** Develop targeted offers based on customer
+  characteristics and service usage.
+- **Customer loyalty:** Encourage continued relationships through
+  appropriate loyalty initiatives.
+- **Retention prioritisation:** Focus limited retention resources on
+  customers with higher predicted churn risk.
+
+The model does not determine why an individual customer will churn.
+Instead, it provides a risk signal that can help businesses decide
+which customers may require further investigation or engagement.
 """)
 # ============================================================
 # CONCLUSION

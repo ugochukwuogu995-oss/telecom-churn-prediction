@@ -103,26 +103,36 @@ The model is evaluated using:
 - ROC-AUC
 - Confusion Matrix
 
-## 📊 Model Results
+## 📊 ## Machine Learning Model
 
-The Logistic Regression model was evaluated on the test dataset using multiple performance metrics.
+The project uses **Logistic Regression** as the final prediction model.
+
+Logistic Regression was selected because the task is a binary
+classification problem: predicting whether a customer is likely to churn
+or remain.
+
+The model is integrated into a Scikit-learn preprocessing pipeline that
+handles numerical and categorical features before generating predictions.
+
+## Model Results
+
+The final model achieved the following results on the test dataset:
 
 | Metric | Result |
 |---|---:|
-| Customer Churn Rate | 26.5% |
 | Accuracy | 80.55% |
 | Precision | 65.72% |
 | Recall | 55.88% |
 | F1 Score | 60.40% |
 | ROC-AUC | 84.19% |
 
-The model achieved an accuracy of **80.55%** and an ROC-AUC of **84.19%**, demonstrating good overall ability to distinguish between customers who are likely to churn and those who are likely to remain.
+The model achieved an accuracy of **80.55%** and an ROC-AUC of **84.19%**,
+demonstrating good overall ability to distinguish between customers who
+are likely to churn and those who are likely to remain.
 
-The precision score of **65.72%** indicates that a substantial proportion of customers predicted as churners were actual churners. The recall score of **55.88%** indicates that the model identified more than half of the customers who actually churned.
+The recall score of **55.88%** indicates that there is room for further
+improvement in identifying customers who actually churn.
 
-The F1 score of **60.40%** reflects a moderate balance between precision and recall.
-
-Although the results are promising, the recall score indicates that further model improvement could help identify more customers at risk of churn.
 ## 📊 Application Features
 
 The Streamlit application provides:

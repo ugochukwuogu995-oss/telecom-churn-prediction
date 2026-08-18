@@ -9,6 +9,30 @@ The project uses customer information such as tenure, contract type, internet se
 
 The application was developed as part of a **3MTT Capstone Project**.
 
+## 🇳🇬 Nigerian Telecom Context
+
+Telecommunications plays an important role in connecting individuals,
+businesses and communities across Nigeria. Customer retention is therefore
+an important consideration for telecom service providers.
+
+In the Nigerian context, customers may change or discontinue telecom
+services because of factors such as affordability, service experience,
+network performance, contract preferences, payment options and changing
+customer needs.
+
+This project demonstrates how customer data and machine learning can be
+used to identify customers who may be at risk of churn. The predictions
+can support telecom businesses in prioritising customer engagement and
+developing appropriate retention strategies.
+
+For example, a telecom provider could use higher-risk predictions to
+consider personalised offers, customer-service follow-ups, suitable
+subscription plans, loyalty initiatives and investigation of
+service-related concerns.
+
+The model is designed as a decision-support tool and should be combined
+with business knowledge and customer feedback when making real-world
+decisions.
 ## 👤 Author
 
 **Name:** Ogu Ugochukwu Monday  
@@ -132,15 +156,31 @@ Customers are classified as:
 
 The application provides suggested actions for customers identified as having elevated churn risk.
 
-## 💼 Business Value
+## ("💼 Business Insights")
 
-A churn prediction system can help telecom businesses:
+### 🇳🇬 Application to the Nigerian Telecom Market
 
-- Identify customers who may be at risk.
-- Prioritise retention efforts.
-- Investigate possible service problems.
-- Develop personalised retention strategies.
-- Improve customer engagement.
+For a Nigerian telecom service provider, churn predictions could support
+a more proactive customer-retention strategy.
+
+**Potential applications include:**
+
+- **Affordability:** Identify customers who may benefit from more suitable
+  subscription or pricing options.
+- **Customer service:** Prioritise follow-up with customers showing
+  elevated churn risk.
+- **Service experience:** Investigate possible service-related concerns
+  among high-risk customers.
+- **Personalised engagement:** Develop targeted offers based on customer
+  characteristics and service usage.
+- **Customer loyalty:** Encourage continued relationships through
+  appropriate loyalty initiatives.
+- **Retention prioritisation:** Focus limited retention resources on
+  customers with higher predicted churn risk.
+
+The model does not determine why an individual customer will churn.
+Instead, it provides a risk signal that can help businesses decide
+which customers may require further investigation or engagement.
 
 ## 🚀 How to Run the Application
 
